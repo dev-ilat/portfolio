@@ -95,6 +95,26 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+section > h2 {
+  text-align: center;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -104,4 +124,29 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+#about {
+  width: 100%;
+}
+
+#people {
+  display: flex;
+  justify-content: space-between;
+}
+
+#people > div {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 20rem;
+  text-align: center;
+}
+
+#people > div > img {
+  border-radius: 50%;
+}
+
+#dev-title { 
+  font-family: monospace;
 }
