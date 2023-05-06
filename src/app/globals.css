@@ -132,7 +132,7 @@ a {
 
 #people {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 3rem 2rem;
 }
