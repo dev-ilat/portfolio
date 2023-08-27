@@ -6,7 +6,13 @@
     "dev": "yarn next dev",
     "build": "yarn next build",
     "start": "yarn next start",
-    "lint": "yarn next lint"
+    "lint": "yarn next lint",
+    "prepare": "husky install"
+  },
+  "engines": {
+    "node": ">=18.16.0",
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn"
   },
   "dependencies": {
     "@types/node": "20.1.0",
@@ -18,5 +24,13 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.3",
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "eslint-config-prettier": "^9.0.0",
+    "husky": "^8.0.3",
+    "prettier": "^3.0.2"
   }
 }
